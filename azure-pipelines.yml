@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'MCAPS-Hybrid-REQ-44551-2022-yuexinmao'
+    azureSubscription: 'service_conn_ym'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
